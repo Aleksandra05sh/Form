@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form</title>
+        <link rel="stylesheet" href="styles/style.css" />
+    </head>
+    <body>
+        <form action="#" method="get">
+            <div class="flex">
+                <label for="username">Name:</label>
+                <input
+                    type="text"
+                    name="username"
+                    placeholder="Your Name"
+                    id="username"
+                />
+            </div>
+            <div class="flex">
+                <label for="userpasword">Password:</label>
+                <input
+                    type="password"
+                    name="userpasword"
+                    placeholder="Your password"
+                    id="userpasword"
+                />
+            </div>
+            <div class="flex">
+                <label for="userphone">Phone number:</label>
+                <input
+                    type="tel"
+                    name="userphone"
+                    placeholder="Your phone number"
+                    id="userphone"
+                />
+            </div>
+            <div>
+                <select class="select-css">
+                    <option>red</option>
+                    <option>blue</option>
+                    <option>yellow</option>
+                    <option>white</option>
+                    <option selected>pink</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">send</button>
+            </div>
+        </form>
+    </body>
+</html>

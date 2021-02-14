@@ -1,0 +1,235 @@
+/*обнуление*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*обнуление*/
+
+form {
+    margin: 30px;
+    padding: 10px;
+    width: 50vw;
+    background-color: #ddaadd50;
+}
+
+/*input*/
+input[type='text'] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type='password'] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type='tel'] {
+    width: 200px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: 1px solid #d60bd660;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    color: #6f256f60;
+    font-size: 14px;
+}
+/*input*/
+
+/*select*/
+.select-css {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #620cd1;
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #9b65e270;
+    box-shadow: 0 1px 0 1px #9b65e270;
+    border-radius: 0.5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url(../img/galochka.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: right 10% top 50%;
+}
+
+/* Hide arrow icon in IE browsers */
+.select-css::-ms-expand {
+    display: none;
+}
+
+select:hover {
+    border: 1px solid #6260bb70;
+    border-radius: 0.5em;
+    box-shadow: 0 2px 0 1px #39388570;
+}
+
+select:focus {
+    border: 1px solid #bd449f70;
+    border-radius: 0.5em;
+    box-shadow: 0 5px 0 1px #bd449f70;
+    outline: none;
+    background-color: #e831ba30;
+}
+/*select*/
+
+/*button*/
+button {
+    margin: 30px 0 0 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-radius: 12px;
+    outline: none;
+    border: 5px solid #44084970;
+    width: 100px;
+    background-color: #8f309730;
+}
+
+button:hover {
+    background-color: #eb279350;
+}
+
+button:focus {
+    background-color: #50b2cf50;
+}
+/*button*/
