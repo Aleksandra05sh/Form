@@ -166,6 +166,7 @@ input:focus {
 ::placeholder {
     color: #6f256f60;
     font-size: 14px;
+    padding-left: 30px;
 }
 /*input*/
 
@@ -210,7 +211,83 @@ select:focus {
     outline: none;
     background-color: #e831ba30;
 }
+/*select2*/
+
+.select {
+    margin-top: 30px;
+    position: relative;
+    width: 20%;
+}
+
+.select-css2 {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #620cd1;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+    border: 1px solid #9b65e270;
+    box-shadow: 0 1px 0 1px #9b65e270;
+    border-radius: 0.5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+}
+
+.select::after {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 11px;
+    border: solid #620cd1;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 10;
+    right: 10%;
+    top: 30%;
+}
 /*select*/
+
+/* checkbox */
+.checkbox {
+    margin: 30px 0 0 0;
+}
+
+div input[type='checkbox'] {
+    display: none;
+}
+
+div input[type='checkbox'] + label {
+    padding-left: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+div input[type='checkbox'] + label:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #620cd130;
+    top: 0;
+    left: 0;
+}
+div input[type='checkbox']:checked + label:after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    transform: rotate(40deg);
+    top: 0px;
+    left: 4px;
+}
+
+/* checkbox */
 
 /*button*/
 button {
